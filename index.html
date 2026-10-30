@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Maciej Owcarz – Full Stack Software Engineer | owcarz.pl</title>
+	<meta name="description" content="Maciej Owcarz, Full Stack Software Engineer from Poznań.">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://owcarz.pl/">
+	<meta name="theme-color" content="#d7efff" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#351e28" media="(prefers-color-scheme: dark)">
+	<link rel="icon" href="favicon.ico" sizes="48x48">
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://owcarz.pl/">
+	<meta property="og:site_name" content="owcarz.pl">
+	<meta property="og:title" content="Maciej Owcarz – Full Stack Software Engineer">
+	<meta property="og:description" content="Maciej Owcarz, Full Stack Software Engineer from Poznań.">
+	<meta property="og:image" content="https://owcarz.pl/og-image.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="Maciej Owcarz, Full Stack Software Engineer, in red and cherry on a pale blue ASCII background">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="preload" href="fonts/martian-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="styles.css">
+	<!-- applies the saved theme before the first paint, so it stays a blocking script -->
+	<script src="theme.js"></script>
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+		<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+		<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+	</button>
+
+	<main class="page">
+		<canvas class="ascii" aria-hidden="true"></canvas>
+		<div class="band" aria-hidden="true"></div>
+		<div class="wrap">
+			<h1 class="name">Maciej <span class="last">Owcarz<span class="cursor" aria-hidden="true"></span></span></h1>
+			<p class="role"><span>Full Stack Software Engineer</span></p>
+			<ul class="links">
+				<li><a href="mailto:maciej.owcarz@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7l9 6l9-6"/></svg><span class="label">E-mail</span></a></li>
+				<li><a href="https://www.linkedin.com/in/maciej-owcarz/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 0 0-4 0"/></svg><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/dhofca" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg><span class="label">GitHub</span></a></li>
+				<li><a href="https://dev-null.sh/@dhofca" target="_blank" rel="noopener noreferrer"><svg viewBox="-9 -7 66 62" fill="currentColor" aria-hidden="true"><path d="M2 42h10L26 6H16Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17.81 43.5h13.22L46.19 4.5H32.97ZM22.19 40.5l12.84-33h6.78l-12.84 33Z"/></svg><span class="label">dev-null.sh</span></a></li>
+				<li><a href="https://x.com/dhofca" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l11.7 16H20L8.3 4z"/><path d="M4 20l6.8-6.8M13.2 10.8L20 4"/></svg><span class="label">X</span></a></li>
+			</ul>
+		</div>
+	</main>
+</body>
+</html>
