@@ -1,0 +1,11 @@
+{
+	"name": "owcarz-pl",
+	"compatibility_date": "2026-10-01",
+	// a static site: no Worker code, Cloudflare serves the files straight from the project root (minus .assetsignore)
+	"assets": {
+		"directory": "."
+	},
+	"routes": [
+		{ "pattern": "owcarz.pl", "custom_domain": true }
+	]
+}
